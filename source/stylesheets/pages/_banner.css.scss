@@ -1,0 +1,61 @@
+.banner {
+  color: white;
+  text-align: center;
+  height: 100vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .tagline-box {
+    width: 40vh;
+    height: 40vh;
+    border:6px solid white;
+    margin: 5vh;
+    display: flex;
+    justify-content:center;
+    .tagline {
+      margin: auto 0;
+      display: flex;
+      justify-content: center;
+      h1 {
+        text-align:center;
+        font-size: 6vh;
+        margin: 0;
+        font-family: 'Heebo', sans-serif;
+        display: inline-block;
+        overflow: hidden;
+        animation: typing 0.5s steps(8, end), blink .75s step-end infinite;
+        white-space: nowrap;
+        box-sizing: border-box;
+      }
+      @keyframes typing {
+        from {
+            width: 0%
+        }
+        to {
+            width: 100%
+        }
+      }
+    }
+  }
+  .banner-btn{
+    padding: 70px;
+    .main-large-btn {
+      border-radius: 4px;
+      background-color: $pink;
+      color: #f7f7f7;
+      text-decoration: none;
+      font-weight: bolder;
+      padding: 18px 35px;
+      transition: 0.2s ease all;
+      &:hover {
+        background-color: #c90269;
+      }
+    }
+  }
+
+}

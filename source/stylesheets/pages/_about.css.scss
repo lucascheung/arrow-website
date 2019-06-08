@@ -1,0 +1,26 @@
+.intro-wrapper {
+  padding: 20vh 20vw;
+  background-color: $background-gray;
+  color: #e2e2e2;
+  text-align: center;
+  border-bottom: 6px solid #b10909;
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+.about-wrapper {
+  height: 100vh;
+  color: white;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color:#32424d;
+  .about-container {
+    margin: 0 auto;
+    padding: 50px 0;
+    width: 50vw;
+    text-align: center;
+  }
+}
