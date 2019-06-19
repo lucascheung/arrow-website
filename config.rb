@@ -10,6 +10,9 @@
 # Auto-prefixing of CSS code with vendor prefix
 activate :autoprefixer
 
+activate :dotenv
+activate :directory_indexes
+
 ###
 # Page options, layouts, aliases and proxies
 ###
@@ -88,4 +91,12 @@ activate :deploy do |deploy|
   # deploy.branch = 'custom-branch' # default: gh-pages
   # deploy.strategy = :submodule # commit strategy: can be :force_push or :submodule, default: :force_push
   # deploy.commit_message = 'custom-message' # commit message (can be empty), default: Automated commit at `timestamp` by middleman-deploy `version`
+end
+
+activate :s3_sync do |config|
+  config.bucket                 = 'www.arrowglobal.io'
+  config.region                 = 'eu-west-2'
+  config.aws_access_key_id      = ENV['AWS_ACCESS_KEY']
+  config.aws_secret_access_key  = ENV['AWS_ACCESS_SECRET']
+  config.after_build            = false
 end

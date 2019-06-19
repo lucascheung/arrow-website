@@ -10,3 +10,6 @@ gem 'jquery-middleman'
 gem 'bootstrap-sass', '3.3.6'
 gem 'font-awesome-sass', '~> 5.8.1'
 gem 'middleman-autoprefixer'
+
+gem 'middleman-s3_sync'
+gem 'middleman-dotenv'
