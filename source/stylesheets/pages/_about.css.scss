@@ -31,16 +31,7 @@
   }
   .about-container {
     display:flex;
-    .about-logo {
-      height: 80vh;
-      display: flex;
-      align-items: center;
-      justify-content:center;
-      img {
-        width: 200px;
-        height: 200px;
-      }
-    }
+    height: 500px;
     .about-content {
       display: flex;
       flex-direction: column;
