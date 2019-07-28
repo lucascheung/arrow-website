@@ -1,24 +1,36 @@
 .service-wrapper {
-  text-align: center;
-  background: $gray-darker;
-  h1 {
-    margin: 0;
-    padding: 100px;
+  background-color: $background-gray;
+  .service-header {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(https://images.unsplash.com/photo-1535083988052-565ca9546643?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80);
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-size: 25px;
+    text-align: left;
+    height: 500px;
+    padding: 200px 0 0 100px;
     color: $white;
   }
   .service-container {
-    padding: 5vw;
+    text-align: left;
+    height: 500px;
+    color: $white;
+    padding: 10vh 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     .service-card {
       display: flex;
+      flex-direction: row;
       align-items: center;
       img {
-        width: 70px;
-        padding: 30px 0;
+        width: 40px;
       }
       .service-title {
-        color: $white;
-        padding: 0 30px;
-        font-size: 20px;
+        color: $orange;
+        padding: 20px 20px;
+        font-size: 25px;
         transition: 0.3 ease all;
       }
     }
