@@ -97,8 +97,6 @@ end
 activate :s3_sync do |s3_sync|
   s3_sync.bucket                     = 'www.arrowglobal.io' # The name of the S3 bucket you are targeting. This is globally unique.
   s3_sync.region                     = 'eu-west-2'     # The AWS region for your bucket.
-  # s3_sync.aws_access_key_id          = ENV['AWS_SECRET_ACCESS_KEY']
-  # s3_sync.aws_secret_access_key      = ENV['AWS_ACCESS_KEY_ID']
   s3_sync.aws_access_key_id          = ENV['AWS_SECRET_ACCESS_KEY']
   s3_sync.aws_secret_access_key      = ENV['AWS_ACCESS_KEY_ID']
   s3_sync.delete                     = false # We delete stray files by default.
