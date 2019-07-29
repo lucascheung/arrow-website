@@ -2,10 +2,11 @@
 title: ARROW | TARGET DRIVEN MEDIA
 ---
 
-<%= partial 'banner' %>
-<%= partial 'about' %>
-<%= partial 'services' %>
-<%= partial 'contact' %>
+<%= partial './front_page/banner' %>
+<%= partial './front_page/about' %>
+<%= partial './front_page/services' %>
+<%= partial './front_page/blog' %>
+<%= partial './front_page/contact' %>
 <% content_for :scripts do %>
   <%= javascript_include_tag 'all' %>
 <% end %>
