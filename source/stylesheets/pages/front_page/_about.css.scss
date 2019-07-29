@@ -1,5 +1,5 @@
 .intro-wrapper {
-  padding: 15vh 20vw;
+  padding: 15vh 10vw;
   background-color: $background-gray;
   color: #e2e2e2;
   text-align: center;
@@ -32,11 +32,11 @@
   .about-container {
     display:flex;
     height: 500px;
+    padding: 0 10vw;
     .about-content {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      padding: 0 10vw;
     }
   }
 }
