@@ -22,7 +22,7 @@
 }
 .banner-content {
   position: absolute;
-  top:80px;
+  top:100px;
   left:0;
   right:0;
   bottom:0;
@@ -31,8 +31,8 @@
   flex-direction: column;
   justify-content: center;
   .tagline-box {
-    width: 40vh;
-    height: 40vh;
+    width: 45vh;
+    height: 45vh;
     border:6px solid white;
     margin: 5vh;
     display: flex;
@@ -42,8 +42,8 @@
       display: flex;
       justify-content: center;
       h1 {
-        text-align:center;
-        font-size: 6vh;
+        text-align:left;
+        font-size: 8vh;
         margin: 0;
         font-family: 'Heebo', sans-serif;
         display: inline-block;
