@@ -1,6 +1,7 @@
 .banner {
   position: relative;
   height: 100vh;
+  background-color: $background-gray;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
   background-repeat: no-repeat;
@@ -11,8 +12,8 @@
 .banner-video {
   position: absolute;
   overflow:hidden;
-  height: calc(100vh - 80px);
-  top: 80px;
+  height: 100vh;
+  top: 0;
   left: 0;
   #banner-video {
     width: 100vw;
