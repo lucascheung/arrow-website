@@ -1,16 +1,18 @@
 .service-wrapper {
   background-color: $background-gray;
+  margin:0;
   .service-header {
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(https://images.unsplash.com/photo-1535083988052-565ca9546643?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80);
-    background-size: cover !important;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url(https://images.unsplash.com/photo-1452451312475-5055e48f74cb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80);
+    background-size: 70vw !important;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
+    background-position: right;
     font-size: 25px;
     text-align: left;
     height: 500px;
     padding: 200px 0 0 100px;
     color: $white;
+    margin:0;
   }
   .service-container {
     text-align: left;

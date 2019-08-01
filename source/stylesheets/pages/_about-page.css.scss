@@ -1,0 +1,12 @@
+.about-page-wrapper {
+  background-color: $background-gray;
+  .about-page-container {
+    .big-logo {
+      height: 100vh;
+      background-size: 50vw !important;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: left;
+    }
+  }
+}
