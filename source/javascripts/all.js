@@ -5,7 +5,7 @@
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  addClasses();
+  // addClasses();
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.querySelector(".navbar-wagon-brand img").style.width = "70px";
     document.querySelector(".navbar-wagon-brand-small img").style.width = "70px";

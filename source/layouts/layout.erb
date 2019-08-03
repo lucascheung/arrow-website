@@ -30,6 +30,8 @@
     <%= partial "./shared/navbar" %>
     <%= yield %>
     <%= partial "./shared/footer" %>
-
+    <% content_for :scripts do %>
+      <%= javascript_include_tag 'all' %>
+    <% end %>
   </body>
 </html>

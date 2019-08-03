@@ -1,11 +1,11 @@
-.about-page-wrapper {
+.services-page-wrapper {
   background-color: $background-gray;
   background-size: 40vw !important;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: left;
   padding-top: 80px;
-  .about-page-container {
+  .services-page-container {
     .big-logo {
       height:400px;
       background-color: $background-gray;
@@ -17,10 +17,10 @@
     .placeholder {
       background-color: transparent !important;
     }
-    .about-content {
+    .services-content {
       background-color: rgba(17,17,22,0.8);
       padding: 10vh 10vw;
-      .about-section {
+      .services-section {
         padding: 5vh 0;
       }
       .contact-btn{
