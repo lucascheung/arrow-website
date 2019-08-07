@@ -2,6 +2,12 @@
   padding-top: 80px;
   .blog-page-container {
     margin: 10vh 10vw;
+    @media screen and (max-width: 800px) {
+      margin: 10vh 0;
+      a {
+        padding: 0;
+      }
+    }
     .blog {
       .blog-header {
         margin: 10px 2px;
@@ -24,6 +30,9 @@
       }
       .blog-card {
         margin: 10px 2px;
+        @media screen and (max-width: 800px) {
+          margin: 10px 0;
+        }
         height: 300px;
         position: relative;
         overflow:hidden;

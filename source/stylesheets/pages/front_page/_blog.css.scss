@@ -3,9 +3,18 @@
   margin:0;
   .blog-container {
     padding: 5vh 3vw;
+    @media screen and (max-width: 800px) {
+      padding: 5vh 0;
+      a {
+        padding: 0;
+      }
+    }
     .blog {
       .blog-card {
         margin: 10px 2px;
+        @media screen and (max-width: 800px) {
+          margin: 10px 0;
+        }
         height: 300px;
         position: relative;
         overflow:hidden;
