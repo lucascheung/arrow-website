@@ -87,11 +87,20 @@
   transition: 0.5s ease all;
 }
 
+.navbar-wagon-item {
+  position: relative;
+  .dropdown {
+    position: static;
+  }
+}
+
 .navbar-wagon-dropdown-menu {
   position: absolute;
-  right: -50px;
+  left: 0;
+  top: 80px;
   width: 100vw;
   height: 100vh;
+  max-width: 100%;
   background: rgba(0,0,0,0.85);
 }
 .navbar-wagon-dropdown-menu li > a {
