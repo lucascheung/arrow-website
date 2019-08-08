@@ -22,6 +22,24 @@
       padding: 10vh 10vw;
       .services-section {
         padding: 5vh 0;
+        .show-more-btn {
+          height: 40px;
+          width: 150px;
+          border-radius: 20px;
+          background-color: rgba(220,0,115,0.1);
+          border: 3px rgba(220,0,115,0.5) solid;
+          text-align: center;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          transition: 0.3s ease all;
+          &:hover {
+            background-color: rgba(220,0,115,0.4);
+          }
+        }
+        .extra-content {
+          padding-top: 30px;
+        }
       }
       .contact-btn{
         padding: 70px 0;

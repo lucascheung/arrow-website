@@ -11,11 +11,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "The Middleman" %></title>
-    <link type="image/ico" href="../images/arrow_logo_text_nospace.ico" rel="icon" />
+    <title><%= current_page.data.title || "ARROW" %></title>
+    <link type="image/ico" href="/images/arrow_logo_text_nospace.ico" rel="icon" />
 
     <%= stylesheet_link_tag "all" %>
-    <%= javascript_include_tag  "all" %>
+    <%= javascript_include_tag  "all", "services" %>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- Leave those next 4 lines if you care about users using IE8 -->
@@ -31,7 +31,7 @@
     <%= yield %>
     <%= partial "./shared/footer" %>
     <% content_for :scripts do %>
-      <%= javascript_include_tag 'all' %>
+      <%= javascript_include_tag 'all', "services" %>
     <% end %>
   </body>
 </html>
