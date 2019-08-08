@@ -23,14 +23,34 @@
     flex-direction: column;
     justify-content: center;
     .service-card {
+      text-decoration: none;
       display: flex;
       flex-direction: row;
       align-items: center;
-      img {
-        width: 40px;
+      #search-title {
+        &:hover {
+          h3 {
+            color: $pink;
+          }
+        }
       }
+      #social-title {
+        &:hover {
+          h3 {
+            color: $green;
+          }
+        }
+      }
+      #display-title {
+        &:hover {
+          h3 {
+            color: $orange;
+          }
+        }
+      }
+
       .service-title {
-        color: $orange;
+        color: $white;
         padding: 10px 20px;
         font-size: 25px;
         transition: 0.3 ease all;
