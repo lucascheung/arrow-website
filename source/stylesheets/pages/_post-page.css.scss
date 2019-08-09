@@ -7,18 +7,20 @@
     background-position: center;
     height: 70vh;
     position: relative;
-    padding: 5vh 10vw 2vh 5vw;
+    padding: 5vh 10vw 2vh 10vw;
     .post-banner-title {
       position: absolute;
       bottom: 0;
+      width: 80vw;
       h1 {
         margin:0;
         padding:0;
-        font-size: 6vw;
+        font-size: 4vw;
+        text-transform: uppercase;
       }
       p {
         margin: 0;
-        padding: 0;
+        padding: 30px 0;
       }
     }
   }
@@ -29,6 +31,15 @@
     }
     padding: 10vh 5vw;
     background: rgba(50,50,50,0.2);
+    h2 {
+      color: $pink;
+      text-transform: uppercase;
+    }
+    h3 {
+      font-size: 22px;
+      color: $green;
+      text-transform: uppercase;
+    }
     p {
       text-align: justify;
     }

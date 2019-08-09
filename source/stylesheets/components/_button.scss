@@ -1,0 +1,15 @@
+#contact-btn{
+  padding: 70px 0;
+  .main-large-btn {
+    border-radius: 4px;
+    background-color: $pink;
+    color: #f7f7f7;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 18px 50px;
+    transition: 0.2s ease all;
+    &:hover {
+      background-color: #c90269;
+    }
+  }
+}
