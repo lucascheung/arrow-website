@@ -25,6 +25,27 @@
         img {
           width: 35vw;
         }
+
+        h3 {
+          color: $orange;
+          margin: 0;
+        }
+        .social-media-box {
+          padding: 20px 0;
+          display: flex;
+          justify-content: left;
+          a {
+            color: $orange;
+            opacity: 1;
+            text-decoration: none;
+            font-size: 30px;
+            padding: 0px 20px 0 0;
+
+            &:hover {
+              opacity: 0.5;
+            }
+          }
+        }
       }
     }
   }
